@@ -7,18 +7,19 @@ int main()
     {
         case'a':
         case'A':
-        case'E':
         case'e':
+        case'E':
         case'i':
         case'I':
         case'o':
         case'O':
         case'u':
         case'U':
-               printf("VOWEL",ch);
-               break;
+                printf("VOWEL");
+                break;
         default:
-            printf("CONSONANT",ch);
+                printf("CONSONANT");
+                break;
     }
     return 0;
 }
