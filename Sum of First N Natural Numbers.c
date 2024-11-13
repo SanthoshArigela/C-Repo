@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int n,sum;
-    scanf("%d",&n);
-    sum=n*(n+1)/2.0;
-    printf("%d",sum);
+    int a,n;
+    scanf("%d",&a);
+    n=(a*(a+1))/2.0;
+    printf("%d",n);
     return 0;
 }
